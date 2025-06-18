@@ -1,82 +1,77 @@
-# 📊 SuperStore Sales Dashboard – Power BI Project
+# 📊 SuperStore Sales Dashboard
 
-Welcome to the **SuperStore Sales Dashboard**, an interactive and insightful sales analysis report built using **Microsoft Power BI**. This project is designed to help business users, analysts, and decision-makers visualize and explore sales performance across various metrics like region, category, profit, and customer segment.
+An interactive Power BI dashboard to analyze and visualize sales performance, customer segments, product categories, and regional trends for a fictional SuperStore.
+
+---
+
+## 🖼️ Dashboard Preview
+
+![Dashboard Preview](dashboard.png)
 
 ---
 
-## 🧠 Project Objective
+## 🚀 Project Objective
 
-To analyze and track the performance of a fictional retail store, **SuperStore**, by building a professional sales dashboard using Power BI. The dashboard enables users to:
-
-- Monitor total sales, profit, and orders.
-- Identify top-performing regions and products.
-- Track monthly sales trends.
-- Filter insights by date, region, category, and segment.
-
----
+To create a dynamic and insightful dashboard that helps stakeholders make data-driven decisions by exploring key metrics such as sales, profit, orders, customer segments, and forecasting future trends.
 
 ## 📁 Dataset Overview
 
-The dataset used in this project includes the following fields:
+The dataset represents historical sales data from a SuperStore and includes:
+- Order Date, Ship Mode, Segment
+- Product Category & Sub-Category
+- Sales, Quantity, Profit
+- Region, State
+- Payment Mode
 
-- `Order Date`
-- `Product Name`
-- `Category` & `Sub-Category`
-- `Region`
-- `Customer Segment`
-- `Sales`
-- `Profit`
-- `Quantity`
-- `Discount`
+📌 **Time Period**: 2019–2020  
 
-> 📌 *Note: This dataset is a publicly available SuperStore sample dataset widely used for learning and visualization projects.*
+## 🧹 Data Preparation
 
----
+Performed basic data cleaning and transformation in Power BI:
+- Removed duplicates & null values
+- Formatted date fields
+- Created calculated columns and measures using DAX
 
-## 📐 Power BI Dashboard Features
+## 📊 Dashboard Features
 
-- **Cards**: KPIs like Total Sales, Total Profit, Orders
-- **Line Chart**: Sales trend over time
-- **Bar Chart**: Sales and profit by Region and Category
-- **Pie Chart**: Sales share by Segment or Category
-- **Slicers**: Region, Category, Year, Segment for drill-down analysis
-- **DAX Measures**:
-  - `Total Sales`
-  - `Total Profit`
-  - `Profit Margin`
-  - `Order Count`
+### ✅ **Key Metrics (KPI Cards)**
+- Total Sales
+- Total Orders 
+- Total Profit
+- Ship Days
 
----
+### 📈 **Visual Insights**
+- **Sales by Category & Sub-Category**: Top-performing products and trends
+- **Sales by Region & State**: Geographical sales and profit distribution
+- **Sales by Segment & Ship Mode**: Understanding customer preferences
+- **Sales by Payment Mode**: Transaction type trends
+- **Monthly Trends**: Sales and profit over time (2019–2020)
 
-## 📷 Dashboard Preview
+### 🔮 **Forecasting**
+- Built-in 15-day future sales forecast using Power BI analytics tools
+- Seasonal trend patterns captured from historical data
 
-![SuperStore Dashboard Screenshot](preview-image-link-here)
+## 🧠 DAX Measures Used
+- `Total Sales`, `Total Profit`, `Profit Margin`
+- `Sales Forecast`, `Monthly Aggregates`
+- Custom time intelligence functions for forecasting
 
-
----
-
-## 🛠 Tools & Technologies
-
+## 📌 Tools & Technologies
 - **Power BI Desktop**
 - **DAX (Data Analysis Expressions)**
-- **Power Query**
-- Excel / CSV (for data)
+- **Data Modeling**
+- **Data Cleaning & Visualization**
 
+## 🔍 Insights
+- Phones, Chairs, and Binders were the top-selling sub-categories.
+- Standard Class was the most popular shipping method.
+- The East region generated the highest overall sales.
+- Consumer segment dominated the market with 48% of total sales.
+- A noticeable increase in sales during Q4 across both years.
+
+## 📦 Output
+
+- Interactive dashboard with filters, slicers, and drill-downs.
+- PDF export for static report sharing.
+- Forecast visuals for sales planning.
 ---
-
-## 🚀 How to Use
-
-1. Clone this repository.
-2. Open the `.pbix` file in Power BI Desktop.
-3. Load the dataset (if not embedded).
-4. Interact with the filters and visuals to explore insights.
-
----
-
-## 📚 Learnings & Skills Demonstrated
-
-- End-to-end Power BI workflow
-- Data cleaning and transformation
-- Data modeling and DAX measures
-- Visualization design and storytelling
-- Business performance analysis
