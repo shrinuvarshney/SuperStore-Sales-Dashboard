@@ -6,7 +6,9 @@ An interactive Power BI dashboard to analyze and visualize sales performance, cu
 
 ## 🖼️ Dashboard Preview
 
-![Dashboard Preview](dashboard.png)
+![Dashboard Preview](https://github.com/shrinuvarshney/SuperStore-Sales-Dashboard/blob/main/Super%20Store%20Sales%20Dashboard.jpg)
+
+![Forecast Preview](https://github.com/shrinuvarshney/SuperStore-Sales-Dashboard/blob/main/Super%20Store%20Sales%20Forecasting.jpg)
 
 ---
 
